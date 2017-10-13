@@ -8,7 +8,7 @@ Available as a command line tool.
 
 ## Example
 
-![Example Random Image](doc/example.jpg)
+![Example Image](./Free_228x150.png)
 
 ## Usage
 

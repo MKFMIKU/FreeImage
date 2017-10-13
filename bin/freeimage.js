@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-var randomImageGenerator = require('..');
+var generator = require('..');
 
 var argv = require('yargs')
     .usage('Usage: $0 [width] [height]')
@@ -8,8 +8,9 @@ var argv = require('yargs')
 
 var width = argv._[0],
     height = argv._[1],
-    image = randomImageGenerator(width, height, done);
+    name = generator(width, height, done);
 
-function done(err, jpg) {
-    process.stdout.write(jpg);
+function done(err) {
+    if (err) console.log(err);
+    else console.log('Generator: ' + name);
 }
