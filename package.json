@@ -1,6 +1,6 @@
 {
-  "name": "FreeImage",
-  "version": "0.0.1",
+  "name": "FreeImageGenerator",
+  "version": "0.0.2",
   "description": "Generates useful test png",
   "main": "index.js",
   "bin": {
@@ -18,7 +18,7 @@
   },
   "scripts": {
     "test": "mocha",
-    "release-patch": "npm version patch && git push origin master && git push --tags && npm publish"
+    "release-patch": "npm version patch && npm publish"
   },
   "repository": {
     "type": "git",
