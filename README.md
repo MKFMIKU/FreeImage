@@ -15,7 +15,7 @@ Available as a command line tool.
 ### Command Line
 
 ```
-npm install -g FreeImage
+npm install -g FreeImageGenerator
 
-freeimage 800 600 > random-image.jpg
+freeimage 800 600 sample.png
 ```
