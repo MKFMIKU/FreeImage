@@ -1,6 +1,6 @@
 {
-  "name": "FreeImageGenerator",
-  "version": "0.0.2",
+  "name": "free-image-generator",
+  "version": "0.0.3",
   "description": "Generates useful test png",
   "main": "index.js",
   "bin": {

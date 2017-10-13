@@ -15,7 +15,7 @@ Available as a command line tool.
 ### Command Line
 
 ```
-npm install -g FreeImageGenerator
+npm install -g free-image-generator
 
 freeimage 800 600 sample.png
 ```
