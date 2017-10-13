@@ -8,9 +8,11 @@ var argv = require('yargs')
 
 var width = argv._[0],
     height = argv._[1],
-    name = generator(width, height, done);
+    file = argv._[2];
 
-function done(err) {
+function done(err, name) {
     if (err) console.log(err);
     else console.log('Generator: ' + name);
 }
+
+generator(width, height, file, done);
