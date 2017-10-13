@@ -1,7 +1,7 @@
 {
-  "name": "random-image-generator",
-  "version": "1.0.3",
-  "description": "Generates random JPEG images",
+  "name": "FreeImage",
+  "version": "0.0.1",
+  "description": "Generates useful test png",
   "main": "index.js",
   "bin": {
     "freeimage": "bin/freeimage.js"
